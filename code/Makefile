@@ -4,28 +4,28 @@ SHELL := /bin/bash # Use bash syntax
 
 
 build:
-	cd hello-rocket / && time -p cargo build
+	cd www_nulldevelopment_hr / && time -p cargo build
 
 check:
-	cd hello-rocket / && time -p cargo check
+	cd www_nulldevelopment_hr / && time -p cargo check
 
 debug:
-	cd hello-rocket / && RUST_BACKTRACE=1 time -p cargo run
+	cd www_nulldevelopment_hr / && RUST_BACKTRACE=1 time -p cargo run
 
 format:
-	cd hello-rocket / && time -p cargo fmt
+	cd www_nulldevelopment_hr / && time -p cargo fmt
 
 release:
-	cd hello-rocket / && time -p cargo build --release
+	cd www_nulldevelopment_hr / && time -p cargo build --release
 
 run:
-	cd hello-rocket / && time -p cargo run
+	cd www_nulldevelopment_hr / && time -p cargo run
 
 test:
-	cd hello-rocket / && time -p cargo test --tests
+	cd www_nulldevelopment_hr / && time -p cargo test --tests
 
 watch:
-	cd hello-rocket / && watchexec --exts rs,html --restart "cargo run"
+	cd www_nulldevelopment_hr / && watchexec --exts rs,html --restart "cargo run"
 
 wip:
 	git add . && git commit -am 'wip' && make build

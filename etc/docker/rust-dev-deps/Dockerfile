@@ -1,4 +1,4 @@
-FROM rust-hello-world/deps:latest
+FROM www_nulldevelopment_hr/deps:latest
 
 ENV TARGET=x86_64-unknown-linux-musl
 

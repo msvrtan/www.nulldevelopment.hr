@@ -1,7 +1,7 @@
 version: '3.2'
 services:
-  helloworld_dev:
-    container_name: helloworld_dev
+  www_nulldevelopment_dev:
+    container_name: www_nulldevelopment_dev
     build:
       context: ./code
     ports:
